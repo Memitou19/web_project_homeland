@@ -1,0 +1,19 @@
+.cover__background {
+  width: 1184px;
+  z-index: 0;
+  background: #2A2C2F;
+}
+
+
+@keyframes suave {
+  0% {opacity:0.3;}
+  50% {opacity: 0.5;}
+  100%{opacity: 0.8;}
+  }
+
+  .cover__background:hover{
+  opacity: 0.8;
+  background: #2A2C2F;
+  animation: suave linear 5s ease-in;
+  animation-delay: 2s;
+  }

@@ -1,0 +1,9 @@
+.cover {
+  width: 1184px;
+  padding-top: 92px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 280px 656px 280px;
+  grid-template-rows: 243px 254px 243px;
+  grid-template-areas: ". . ."". gp ."". . .";
+}
