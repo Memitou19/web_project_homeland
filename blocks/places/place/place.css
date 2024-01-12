@@ -9,3 +9,23 @@
   "image paragraphs"
   "button paragraphs";
 }
+
+@media (max-width: 768px) {
+  .place {
+  width: 720px;
+  grid-template-columns: 340px 352px;
+  grid-template-rows: 67px 340px 1fr;
+  grid-gap: 24px 28px;
+  }
+  }
+
+  @media (max-width: 320px) {
+  .place {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  grid-gap: inherit;
+  align-items: center;
+  padding-top: 25px;
+  }
+  }

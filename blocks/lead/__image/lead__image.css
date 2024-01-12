@@ -5,3 +5,17 @@
   margin: 0;
   padding-top: 64px;
 }
+
+@media (max-width: 768px) {
+  .lead__image {
+  width: 768px;
+  padding-top: 69px;
+  }
+  }
+
+  @media (max-width: 320px) {
+  .lead__image {
+  width: 320px;
+  padding-top: 40px;
+  }
+  }

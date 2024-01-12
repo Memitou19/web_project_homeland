@@ -1,9 +1,25 @@
 .photo-grid {
   width: 1184px;
-  margin: 0;
   padding: 92px 48px;
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   margin: 0;
 }
+
+@media (max-width: 768px) {
+  .photo-grid {
+  width: 720px;
+  padding: 64px 24px;
+  }
+  }
+
+  @media (max-width: 320px) {
+  .photo-grid {
+  width: 288px;
+  padding: 38px 16px;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  }
+  }
